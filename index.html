@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     
+    <div class="main-container">
+        <!-- Sidebar -->
+         <div class="sidebar">
+            <!-- profile -->
+             <div class="profile" >
+                <img src="./dipak.jpeg" alt="Photo">
+                <h2 align="center" >Dipak Mahata</h2>
+                <p align="center">Software Engineer</p>
+             </div>
+             
+             <br>
+             <br>
+             <hr>
+             <!-- contact -->
+              <style>
+                .profile h2,
+                .profile p {
+                    text-align: center;
+                }
+
+                .contact p {
+                    font-weight: 700;
+                }
+                .contact h3{
+                    color: darkgray;
+                }
+                .social h3{
+                    color: #bbb;
+                }
+
+                .social pre{
+                    color: #e3bd10;
+                }
+              </style>
+              <div class="contact">
+                <h3 align="center">Contacts</h3>
+                <p><strong>Email : hraj49867@gmail.com</strong></p>
+              <p><strong>Mobile : 6294****25</strong></p>
+              </div>
+              
+              <br>
+              <br>
+              <br>  
+              <br>
+              <br>
+              <hr>
+              <!-- social -->
+              <div class="social">
+                <h3 align="center">Social</h3>
+                <pre><h2><b>Linkdin</b>     <b>Github</b>    <b>Instagram</b></pre>
+              </div> 
+         </div>
+
+         <!-- Main- Content-->
+          <div class="main-content">
+            <!-- About -->
+            <div>
+                <h1 style="color: #ebbd08;"><strong>PROFESSIONAL SUMMARY</strong></h1>
+                <hr>
+                <br>
+            <p>Dipak Mahata is a B.Tech Computer Science and Technology student at IIEST Shibpur, currently preparing for professional opportunities.Dedicated and highly motivated Cybersecurity aspirant with a strong foundation in networking, Linux operating systems and web application security fundamentals.Actively building practical hacking skills through hands-on lab platforms like TryHackMe. Eager to secure an entry level Cybersecurity Analyst internship to apply theoretical knowledge and support enterprise defense teams.</p>
+                </div>
+
+                <div>
+                    <h1 style="color: #e3bd10;"><strong>TECHNICAL SKILLS</strong></h1>
+                    <hr>
+                    <br>
+                    <ul>
+                        <li><h3><strong>Operating Systems : 
+                            <pre>Linux (Kali Linux, Ubuntu Bash Navigation), Windows</pre>
+                        </strong></h3></li>
+                        <li><h3><strong>Networking : 
+                            <pre>TCP/IP Models, Core Protocols, Common Port Vulnerabilities</pre>
+                        </strong></h3></li>
+                        <li><h3><strong>Security Concepts : 
+                            <pre>OWASP Top 10 Basics, Cryptography Basics, Privilege Escalation</pre>
+                        </strong></h3></li>
+                        <li><h3><strong>Tools & Environments : 
+                            <pre>Virtualbox, VMware Player, Wireshark(Basic Traffic Filtering)</pre>
+                        </strong></h3></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h1 style="color: #ebbd08;">LABS & PRACTICAL PROJECTS</h1>
+                    <hr>
+                    <br>
+                    <pre><h3 style="color: aliceblue;"><b>Dedicated Home Hacking Lab Setup</b></h3> | Independent Project</pre>
+                </div>
+            </div>
+        
+
+    </div>
+
+
+    <div class="window">
+  <!-- Theme radios come first in DOM so ~ can reach everything below -->
+  <input type="radio" name="theme" id="theme-light" class="theme-radio r1" checked>
+  <input type="radio" name="theme" id="theme-dark" class="theme-radio r2">
+  <input type="radio" name="theme" id="theme-contrast" class="theme-radio r3">
+
+  <div class="ps-backdrop ps-part"></div>
+
+  <div class="titlebar ps-part">
+    <span>Page Setup</span>
+    <span class="ps-close">&times;</span>
+  </div>
+
+  <div class="ps-orientation ps-part">
+    <span class="ps-label-bold">Orientation</span>
+    <label><input type="radio" name="orientation" checked> Portrait</label>
+    <label><input type="radio" name="orientation"> Landscape</label>
+  </div>
+
+  <div class="ps-papersize ps-part">
+    <span class="ps-label-bold">Paper Size</span>
+    <select>
+      <option>Letter (21.6 cm x 27.9 cm)</option>
+      <option>A4 (21.0 cm x 29.7 cm)</option>
+      <option>Legal (21.6 cm x 35.6 cm)</option>
+    </select>
+  </div>
+
+  <div class="ps-pagecolor ps-part">
+    <span class="ps-label-bold">Page Colour</span>
+    <input type="color" value="#ffffff">
+  </div>
+
+  <div class="ps-themehead ps-part">
+    <span class="ps-label-bold">Theme</span>
+  </div>
+  <label class="ps-part theme-option l1" for="theme-light">Light</label>
+  <label class="ps-part theme-option l2" for="theme-dark">Dark</label>
+  <label class="ps-part theme-option l3" for="theme-contrast">High-contrast</label>
+
+  <div class="ps-margins ps-part">
+    <span class="ps-label-bold">Margins (centimetres)</span>
+    <div class="ps-field"><label>Top</label><input type="text" value="2.54"></div>
+    <div class="ps-field"><label>Bottom</label><input type="text" value="2.54"></div>
+    <div class="ps-field"><label>Left</label><input type="text" value="2.54"></div>
+    <div class="ps-field"><label>Right</label><input type="text" value="2.54"></div>
+  </div>
+
+  <div class="ps-footer ps-part">
+    <button class="ps-ok">OK</button>
+    <button class="ps-cancel">Cancel</button>
+    <button class="ps-default">Set as default</button>
+  </div>
+</div>
+</body>
+</html>
